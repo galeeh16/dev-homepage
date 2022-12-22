@@ -14,30 +14,31 @@
             </svg> Core Team
           </h3>
         </a>
-        <div class="dropdown" data-v-b913ba79="">
-          <div class="d-flex align-items-center text-dark" data-v-b913ba79=""
-            style="gap: 5px; justify-content: space-between;">
-            <div data-v-b913ba79=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
-                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                data-v-b913ba79="">
-                <path class="st0" d="M2,16c0.1,0,8-5,9-7c0.6-1.3,1-5,1-5h3H1h7V1" data-v-b913ba79=""></path>
-                <line class="st0" x1="4" y1="8" x2="12" y2="16" data-v-b913ba79=""></line>
-                <polygon class="st0" points="15,19 21,19 23,23 18,11 13,23 " data-v-b913ba79=""></polygon>
-              </svg></div>
-            <div class="" data-v-b913ba79="" style="font-weight: 600; font-size: 18px; text-transform: uppercase;">en
-            </div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+        <div class="dropdown">
+          <div class="d-flex align-items-center text-dark" style="gap: 5px; justify-content: space-between;">
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path class="st0" d="M2,16c0.1,0,8-5,9-7c0.6-1.3,1-5,1-5h3H1h7V1"></path>
+                <line class="st0" x1="4" y1="8" x2="12" y2="16"></line>
+                <polygon class="st0" points="15,19 21,19 23,23 18,11 13,23 "></polygon>
+              </svg>
+            </div>
+            <div class="" style="font-weight: 600; font-size: 18px; text-transform: uppercase;">en
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
               stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-              class="feather feather-chevron-down" data-v-b913ba79="">
-              <polyline points="6 9 12 15 18 9" data-v-b913ba79=""></polyline>
+              class="feather feather-chevron-down">
+              <polyline points="6 9 12 15 18 9"></polyline>
             </svg>
           </div>
-          <div class="dropdown-content" data-v-b913ba79="" style="">
-            <div class="d-flex align-items-center" data-v-b913ba79="" style="gap: 8px;"><svg
-                xmlns="http://www.w3.org/2000/svg" width="18" height="18" id="flag-icons-id" viewBox="0 0 640 480"
-                data-v-b913ba79="">
-                <path fill="#e70011" d="M0 0h640v240H0Z" data-v-b913ba79=""></path>
-                <path fill="#f4f5f6" d="M0 240h640v240H0Z" data-v-b913ba79=""></path>
-              </svg> ID </div><!---->
+          <div class="dropdown-content" style="">
+            <div class="d-flex align-items-center" style="gap: 8px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" id="flag-icons-id" viewBox="0 0 640 480">
+                <path fill="#e70011" d="M0 0h640v240H0Z"></path>
+                <path fill="#f4f5f6" d="M0 240h640v240H0Z"></path>
+              </svg> ID
+            </div><!---->
           </div>
         </div>
       </div>
@@ -71,6 +72,10 @@
   <Team />
 
   <VisionMission />
+
+  <OurProject />
+
+  <Footer />
 </template>
 
 <script setup>
@@ -78,6 +83,8 @@ import GlobeImage from './assets/globe.png';
 
 import Team from './components/Team.vue';
 import VisionMission from './components/VisionMission.vue';
+import OurProject from './components/OurProject.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <style scoped>

@@ -1,5 +1,5 @@
 <template>
-	<section id="teams" sytle="margin-top: 50px; margin-bottom: 100px; padding: 50px 0px; position: relative;">
+	<section id="teams" style="margin-top: 50px; margin-bottom: 100px; padding: 50px 0px; position: relative;">
 		<div class="d-flex justify-content-center">
 			<h2 class="text-center h2-text">Meet Our Team</h2>
 		</div>
