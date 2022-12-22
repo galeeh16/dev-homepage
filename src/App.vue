@@ -69,12 +69,15 @@
   </div>
 
   <Team />
+
+  <VisionMission />
 </template>
 
 <script setup>
 import GlobeImage from './assets/globe.png';
 
 import Team from './components/Team.vue';
+import VisionMission from './components/VisionMission.vue';
 </script>
 
 <style scoped>
