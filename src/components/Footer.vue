@@ -11,3 +11,6 @@
     &nbsp;&nbsp;{{ $t('by') }} {{ $t('team') }}
   </footer>
 </template>
+
+<script setup>
+</script>

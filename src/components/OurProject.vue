@@ -8,8 +8,8 @@
       <p class="text-center">This is list of the application that we made so far</p>
 
       <div style="position: relative; margin-top: 50px;">
-        <input type="text" id="myInput" class="input" v-model="search" placeholder="Search..." spellcheck="false"
-          autocomplete="off" />
+        <input type="text" id="myInput" class="input" v-model="search" :placeholder="`${$t('search')}...`"
+          spellcheck="false" autocomplete="off" />
         <div style="position: absolute; top: 11px; left: 14px;">
           <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" color="#9495a4"
             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
