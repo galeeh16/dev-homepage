@@ -256,7 +256,10 @@ section * {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 1.8rem;
-  grid-row-gap: 2rem
+  grid-row-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
 }
 
 .team {

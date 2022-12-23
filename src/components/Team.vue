@@ -1,9 +1,9 @@
 <template>
-	<section id="teams" style="margin-top: 50px; margin-bottom: 100px; padding: 50px 0px; position: relative;">
+	<section id="teams" style="margin-top: 50px; padding: 50px 0px; position: relative;">
 		<div class="d-flex justify-content-center">
-			<h2 class="text-center h2-text">Meet Our Team</h2>
+			<h2 class="text-center h2-text">{{ $t('meet_our_team') }}</h2>
 		</div>
-		<p class="text-center" style="margin-bottom: 40px;">Meet our team member who create CBS Web and many more apps</p>
+		<p class="text-center" style="margin-bottom: 40px;">{{ $t('meet_our_team_desc') }}</p>
 
 		<div class="container">
 			<div class="grid">
@@ -14,9 +14,13 @@
 					<div class="team-body">
 						<p class="text-dark" style="font-size: 18px; font-weight: 500;">{{ team.name }}</p>
 						<p class="text-gray" style="font-size: 15px;">{{ team.title }}</p>
-						<p class="text-gray" style="font-size: 13px; margin-top: 1rem;">{{ getAge(team.since) }} years experience
+						<p class="text-gray" style="font-size: 13px; margin-top: 1rem;">{{ $t('experience', {
+								year:
+									getAge(team.since)
+							})
+						}}
 						</p>
-						<p class="text-gray" style="font-size: 13px;">Since {{ team.since }}</p>
+						<p class="text-gray" style="font-size: 13px;">{{ $t('since', { date: team.since }) }}</p>
 					</div>
 				</div>
 			</div>
@@ -69,7 +73,7 @@ const teams = [
 		id: 7,
 		name: 'Dede Sumantri',
 		title: 'Fullstack Developer',
-		since: '2020-01-01'
+		since: '2019-11-01'
 	},
 ];
 </script>

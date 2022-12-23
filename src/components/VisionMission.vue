@@ -1,11 +1,11 @@
 <template>
   <section id="visi-mission"
-    style="margin-top: 100px; background-color: rgb(31, 41, 55); padding-top: 60px; padding-bottom: 50px; border-top-left-radius: 6rem; border-top-right-radius: 6rem;">
+    style="margin-top: 80px; background-color: rgb(31, 41, 55); padding-top: 60px; padding-bottom: 50px; border-top-left-radius: 6rem; border-top-right-radius: 6rem;">
     <div class="container">
       <div class="d-flex justify-content-center">
-        <h2 class="text-center h2-text">Vision and Mission</h2>
+        <h2 class="text-center h2-text">{{ $t('vision_and_mission') }}</h2>
       </div>
-      <p class="text-center text-light">This is the vision and mission of core team</p>
+      <p class="text-center text-light">{{ $t('vision_and_mission_desc') }}</p>
 
       <div class="d-flex" style="gap: 4rem;">
         <div class="left"><img :src="AboutUs"></div>

@@ -11,7 +11,7 @@
               <path
                 d="M22.239 12.0413H1.762C1.342 12.0413 1 12.3756 1 12.7885C1 13.2003 1.342 13.5337 1.762 13.5337H2.823V17.0972C2.823 19.2467 4.607 20.9971 6.798 20.999L8.427 21C8.848 21 9.188 20.6656 9.189 20.2528C9.189 19.841 8.848 19.5066 8.428 19.5066L6.8 19.5056C5.447 19.5036 4.346 18.424 4.346 17.0972V13.5337H6.969V14.5251C6.959 15.7656 7.974 16.7795 9.238 16.7913H14.762C16.027 16.7795 17.042 15.7656 17.032 14.5251V13.5337H19.655V17.0933C19.655 18.425 18.551 19.5066 17.194 19.5066H15.601C15.18 19.5066 14.839 19.841 14.839 20.2528C14.839 20.6656 15.18 21 15.601 21H17.194C19.39 21 21.177 19.2487 21.177 17.0933V13.5337H22.239C22.659 13.5337 23 13.2003 23 12.7885C23 12.3756 22.659 12.0413 22.239 12.0413Z"
                 fill="currentColor"></path>
-            </svg> Core Team
+            </svg> {{ $t('team') }}
           </h3>
         </a>
         <div class="dropdown">
@@ -44,29 +44,31 @@
       </div>
       <div class="d-flex justify-content-between">
         <div style="margin-top: 130px; max-width: 410px;">
-          <h1 class="rainbow-text" style="font-size: 64px;">Core Team</h1>
-          <h2 style="font-weight: 500; font-size: 34px;">Ultrastack Developer</h2>
-          <p class="text-dark" style="font-size: 17px;">We build, we serve, we deploy and maintenance everything.</p><a
-            href="#teams" class="btn d-flex align-items-center"
-            style="margin-top: 1.5rem; gap: 5px; position: relative; z-index: 4;">Get Started <svg
-              xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+          <h1 class="rainbow-text" style="font-size: 64px;">{{ $t('team') }}</h1>
+          <h2 style="font-weight: 500; font-size: 34px;">{{ $t('team_yelyel') }}</h2>
+          <p class="text-dark" style="font-size: 17px;">{{ $t('team_desc') }}</p><a href="#teams"
+            class="btn d-flex align-items-center"
+            style="margin-top: 1.5rem; gap: 5px; position: relative; z-index: 4;">{{ $t('get_started') }}
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
               stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
               class="feather feather-arrow-right">
               <line x1="5" y1="12" x2="19" y2="12"></line>
               <polyline points="12 5 19 12 12 19"></polyline>
-            </svg></a>
+            </svg>
+          </a>
         </div>
         <div class="animate-banner" style="max-width: 720px; position: relative; z-index: 2;"><img class="img-banner"
             :src="GlobeImage" alt="illustration" style="width: 100%; object-fit: cover;"></div>
       </div>
     </div>
 
-    <div class="svg-white" style="position: absolute; bottom: -80px; left: 0px; right: 0px;"><svg
-        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <div class="svg-white" style="position: absolute; bottom: -80px; left: 0px; right: 0px;">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path fill="#f3f4f6" fill-opacity="1"
           d="M0,192L40,192C80,192,160,192,240,176C320,160,400,128,480,106.7C560,85,640,75,720,106.7C800,139,880,213,960,229.3C1040,245,1120,203,1200,160C1280,117,1360,75,1400,53.3L1440,32L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
         </path>
-      </svg></div>
+      </svg>
+    </div>
   </div>
 
   <Team />
