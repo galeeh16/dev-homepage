@@ -276,7 +276,7 @@ const applicationFilter = computed(() => {
 <style scoped>
 .table {
   width: 100%;
-  border-collapse: collapse
+  border-collapse: collapse;
 }
 
 .table tr td {
@@ -284,7 +284,7 @@ const applicationFilter = computed(() => {
 }
 
 .table tr td a {
-  color: #ea499a !important
+  color: #ea499a !important;
 }
 
 .table tr th {
@@ -293,7 +293,7 @@ const applicationFilter = computed(() => {
   font-weight: 600;
   background-color: #2a333f;
   border: none;
-  border: none !important
+  border: none !important;
 }
 
 .table tbody tr:hover {
@@ -315,21 +315,28 @@ const applicationFilter = computed(() => {
 tbody tr {
   display: table;
   width: 100%;
-  table-layout: fixed
+  table-layout: fixed;
 }
 
+/* Scrollbar Firefox */
+.table tbody {
+  scrollbar-width: 12px;
+  scrollbar-color: #48444e;
+}
+
+/* Scrollbar Chrome */
 .table tbody::-webkit-scrollbar {
   width: 8px;
-  height: 6px
+  height: 6px;
 }
 
 .table tbody::-webkit-scrollbar-track {
-  background: #48444e
+  background: #48444e;
 }
 
 .table tbody::-webkit-scrollbar-thumb {
   background: #f769df75;
-  border-radius: 10px
+  border-radius: 10px;
 }
 
 .input {
@@ -343,17 +350,17 @@ tbody tr {
   font-size: 1rem;
   padding: 8px 1rem 8px 2.3rem;
   font-family: Poppins, sans-serif;
-  color: #babecf
+  color: #babecf;
 }
 
 .input::placeholder {
-  color: #606270
+  color: #606270;
 }
 
 .input:focus,
 .input:active {
   border: 1px solid #fa58cc;
   background: #222b36;
-  box-shadow: 0 0 0 .2rem #fd0de92c
+  box-shadow: 0 0 0 .2rem #fd0de92c;
 }
 </style>

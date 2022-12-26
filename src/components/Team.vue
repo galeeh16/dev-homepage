@@ -1,5 +1,5 @@
 <template>
-	<section id="teams" style="margin-top: 50px; padding: 50px 0px; position: relative;">
+	<section id="teams" style="margin-top: 30px; padding: 50px 0px; position: relative;">
 		<div class="d-flex justify-content-center">
 			<h2 class="text-center h2-text">{{ $t('meet_our_team') }}</h2>
 		</div>
@@ -15,10 +15,10 @@
 						<p class="text-dark" style="font-size: 18px; font-weight: 500;">{{ team.name }}</p>
 						<p class="text-gray" style="font-size: 15px;">{{ team.title }}</p>
 						<p class="text-gray" style="font-size: 13px; margin-top: 1rem;">{{ $t('experience', {
-								year:
-									getAge(team.since)
-							})
-						}}
+		year:
+			getAge(team.since)
+	})
+}}
 						</p>
 						<p class="text-gray" style="font-size: 13px;">{{ $t('since', { date: team.since }) }}</p>
 					</div>
