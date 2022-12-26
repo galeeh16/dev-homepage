@@ -8,7 +8,7 @@
       <p class="text-center text-light">{{ $t('vision_and_mission_desc') }}</p>
 
       <div class="d-flex" style="gap: 4rem;">
-        <div class="left"><img :src="AboutUs"></div>
+        <div class="left"><img :src="AboutUs" loading="lazy"></div>
         <div class="right" style="flex: 1 1 0%; padding-top: 80px;">
           <ul>
             <li>

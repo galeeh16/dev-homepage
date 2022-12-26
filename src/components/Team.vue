@@ -9,7 +9,7 @@
 			<div class="grid">
 				<div class="team" v-for="team in teams" :key="team.id">
 					<div class="team-image">
-						<img :src="HackerImage" alt="Kurniawan Halim" style="width: 100%; max-width: 170px;">
+						<img :src="HackerImage" alt="Kurniawan Halim" style="width: 100%; max-width: 170px;" loading="lazy">
 					</div>
 					<div class="team-body">
 						<p class="text-dark" style="font-size: 18px; font-weight: 500;">{{ team.name }}</p>
