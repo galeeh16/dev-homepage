@@ -3,9 +3,9 @@
     style="margin-top: 0px; margin-bottom: 0px; background-color: rgb(31, 41, 55); padding-top: 100px; padding-bottom: 50px;">
     <div class="container">
       <div class="d-flex justify-content-center">
-        <h2 class="text-center h2-text">Our Project's</h2>
+        <h2 class="text-center h2-text">{{ $t('our_project') }}</h2>
       </div>
-      <p class="text-center">This is list of the application that we made so far</p>
+      <p class="text-center">{{ $t('our_project_desc') }}</p>
 
       <div style="position: relative; margin-top: 50px;">
         <input type="text" id="myInput" class="input" v-model="search" :placeholder="`${$t('search')}...`"
@@ -36,8 +36,8 @@
             <td>{{ application.type }}</td>
             <td>
               <a :href="application.url" target="_blank" :title="`${$t('go_to')} ${application.name}`">{{
-                  $t('open_app')
-              }} <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+    $t('open_app')
+                }} <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                   class="bi bi-link-45deg" viewBox="0 0 16 16">
                   <path
                     d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z">

@@ -1,0 +1,21 @@
+{
+  "team": "Team-Kern",
+  "team_yelyel": "Ultrastack-Entwickler",
+  "team_desc": "Wir bauen, warten, implementieren und warten alles.",
+  "get_started": "Start",
+  "experience": "Pengalaman {year} Tahun",
+  "since": "Seit {date}",
+  "meet_our_team": "Unser Team",
+  "meet_our_team_desc": "Lernen Sie das Team kennen, das CBS Web und viele andere Anwendungen entwickelt hat",
+  "vision_and_mission": "Vision und Mission",
+  "vision_and_mission_desc": "Das ist die Vision und Mission des Kernteams",
+  "search": "Suche",
+  "our_project": "Unsere Projekte",
+  "our_project_desc": "Dies ist die Liste der Apps, die wir bisher erstellt haben",
+  "created_with": "Gemacht mit",
+  "by": "von",
+  "name": "Name",
+  "type": "Typ",
+  "open_app": "Siehe Anwendung",
+  "go_to": "Gehe zu"
+}

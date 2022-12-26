@@ -1,10 +1,16 @@
 import { createI18n } from 'vue-i18n'
 import en from './locales/en.json'
 import id from './locales/id.json'
+import jp from './locales/jp.json'
+import th from './locales/th.json'
+import de from './locales/de.json'
 
 const messages = {
   en: en,
-  id: id
+  id: id,
+  jp: jp,
+  th: th,
+  de: de,
 };
 
 // 2. Create i18n instance with options

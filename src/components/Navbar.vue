@@ -23,7 +23,7 @@
           </svg>
         </div>
         <div class="" style="font-weight: 600; font-size: 18px; text-transform: uppercase;">
-          {{ lang === 'en' ? 'EN' : 'ID' }}
+          {{ lang }}
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -32,7 +32,7 @@
         </svg>
       </div>
       <div class="dropdown-content" :class="{ 'd-block': showDropdownValue }">
-        <div class="d-flex align-items-center" style="gap: 8px;" v-if="lang === 'en'" @click="setLang('id')">
+        <div class="d-flex align-items-center" style="gap: 8px;" v-if="lang !== 'id'" @click="setLang('id')">
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" id="flag-icons-id" viewBox="0 0 640 480">
             <path fill="#e70011" d="M0 0h640v240H0Z"></path>
             <path fill="#f4f5f6" d="M0 240h640v240H0Z"></path>
@@ -40,7 +40,7 @@
           ID
         </div>
 
-        <div class="d-flex align-items-center" style="gap: 8px;" v-else @click="setLang('en')">
+        <div class="d-flex align-items-center" style="gap: 8px;" v-if="lang !== 'en'" @click="setLang('en')">
           <svg xmlns=" http://www.w3.org/2000/svg" width="18" height="18" id="flag-icons-gb" viewBox="0 0 640 480">
             <path fill="#012169" d="M0 0h640v480H0z"></path>
             <path fill="#FFF"
@@ -52,6 +52,41 @@
             <path fill="#C8102E" d="M0 193v96h640v-96H0zM273 0v480h96V0h-96z"></path>
           </svg>
           EN
+        </div>
+
+        <div class="d-flex align-items-center" style="gap: 8px;" v-if="lang !== 'de'" @click="setLang('de')">
+          <svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-de" viewBox="0 0 640 480">
+            <path fill="#ffce00" d="M0 320h640v160H0z" />
+            <path d="M0 0h640v160H0z" />
+            <path fill="#d00" d="M0 160h640v160H0z" />
+          </svg>
+          DE
+        </div>
+
+        <div class="d-flex align-items-center" style="gap: 8px;" v-if="lang !== 'jp'" @click="setLang('jp')">
+          <svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-jp" viewBox="0 0 640 480">
+            <defs>
+              <clipPath id="a">
+                <path fill-opacity=".7" d="M-88 32h640v480H-88z" />
+              </clipPath>
+            </defs>
+            <g fill-rule="evenodd" stroke-width="1pt" clip-path="url(#a)" transform="translate(88 -32)">
+              <path fill="#fff" d="M-128 32h720v480h-720z" />
+              <circle cx="523.1" cy="344.1" r="194.9" fill="#bc002d" transform="translate(-168.4 8.6) scale(.76554)" />
+            </g>
+          </svg>
+          JP
+        </div>
+
+        <div class="d-flex align-items-center" style="gap: 8px;" v-if="lang !== 'th'" @click="setLang('th')">
+          <svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-th" viewBox="0 0 640 480">
+            <g fill-rule="evenodd">
+              <path fill="#f4f5f8" d="M0 0h640v480H0z" />
+              <path fill="#2d2a4a" d="M0 162.5h640v160H0z" />
+              <path fill="#a51931" d="M0 0h640v82.5H0zm0 400h640v80H0z" />
+            </g>
+          </svg>
+          TH
         </div>
       </div>
     </div>

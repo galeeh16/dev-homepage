@@ -1,0 +1,21 @@
+{
+  "team": "チームコア",
+  "team_yelyel": "ウルトラスタック開発者",
+  "team_desc": "すべてを構築、サービス、展開、保守します",
+  "get_started": "始める",
+  "experience": "経験 {year} 年",
+  "since": "以来 {date}",
+  "meet_our_team": "私たちのチーム",
+  "meet_our_team_desc": "CBS Web やその他の多くのアプリケーションを構築したチームについて知る",
+  "vision_and_mission": "ビジョンとミッション",
+  "vision_and_mission_desc": "これがコアチームのビジョンとミッションです",
+  "search": "検索",
+  "our_project": "私たちのプロジェクト",
+  "our_project_desc": "これまでに作成したアプリのリストです",
+  "created_with": "で作った",
+  "by": "沿って",
+  "name": "名前",
+  "type": "タイプ",
+  "open_app": "アプリケーションを見る",
+  "go_to": "に行く"
+}
