@@ -4,6 +4,7 @@ import id from './locales/id.json'
 import jp from './locales/jp.json'
 import th from './locales/th.json'
 import de from './locales/de.json'
+import kr from './locales/kr.json'
 
 const messages = {
   en: en,
@@ -11,6 +12,7 @@ const messages = {
   jp: jp,
   th: th,
   de: de,
+  kr: kr,
 };
 
 // 2. Create i18n instance with options

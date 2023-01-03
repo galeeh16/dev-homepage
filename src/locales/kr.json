@@ -1,0 +1,21 @@
+{
+  "team": "팀 코어",
+  "team_yelyel": "울트라스택 개발자",
+  "team_desc": "우리는 모든 것을 구축, 서비스, 배포 및 유지 관리합니다.",
+  "get_started": "시작",
+  "experience": "경험 {year}년",
+  "since": "부터 {date}",
+  "meet_our_team": "우리 팀",
+  "meet_our_team_desc": "CBS 웹 및 기타 여러 애플리케이션을 구축한 팀에 대해 알아보십시오.",
+  "vision_and_mission": "비전과 사명",
+  "vision_and_mission_desc": "이것이 코어팀의 비전이자 사명입니다.",
+  "search": "찾다",
+  "our_project": "우리의 프로젝트",
+  "our_project_desc": "지금까지 만든 앱 목록입니다.",
+  "created_with": "만든",
+  "by": "~에 의해",
+  "name": "이름",
+  "type": "유형",
+  "open_app": "응용 프로그램 보기",
+  "go_to": "이동"
+}
