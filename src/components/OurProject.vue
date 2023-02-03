@@ -282,6 +282,12 @@ const applications = ref([
     type: 'BE',
     url: 'http://10.30.8.40:6230/'
   },
+  {
+    id: 38,
+    name: 'API CBS Lending Syariah',
+    type: 'BE',
+    url: 'http://10.30.8.40:6250/'
+  },
 ]);
 
 const search = ref('');
