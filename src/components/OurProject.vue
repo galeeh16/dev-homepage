@@ -294,6 +294,12 @@ const applications = ref([
     type: 'BE',
     url: 'http://10.30.8.40:6260/'
   },
+  {
+    id: 40,
+    name: 'Service CRUD Syariah',
+    type: 'BE',
+    url: 'http://10.30.8.40:6270/'
+  },
 ]);
 
 const search = ref('');
