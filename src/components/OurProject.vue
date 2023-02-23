@@ -288,6 +288,12 @@ const applications = ref([
     type: 'BE',
     url: 'http://10.30.8.40:6250/'
   },
+  {
+    id: 39,
+    name: 'Service ABP',
+    type: 'BE',
+    url: 'http://10.30.8.40:6260/'
+  },
 ]);
 
 const search = ref('');
