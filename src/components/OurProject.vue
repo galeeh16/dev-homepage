@@ -300,6 +300,12 @@ const applications = ref([
     type: 'BE',
     url: 'http://10.30.8.40:6270/'
   },
+  {
+    id: 41,
+    name: 'Service Reporting Syariah',
+    type: 'BE',
+    url: 'http://10.30.8.40:6280/'
+  },
 ]);
 
 const search = ref('');
